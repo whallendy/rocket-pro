@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/error.css')
+  body
+    block content
+      h1= message
+      h2= error.status
+      pre #{error.stack}

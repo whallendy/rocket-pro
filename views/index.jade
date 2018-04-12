@@ -1,0 +1,25 @@
+include navbar
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/index.css')
+  body
+    block content
+      h1= title
+      #loginbox
+        #platformtext
+          p Choose your platform
+        #platforminput
+          put(type='submit', value='Submit')
+        #platformpics
+          img(src='/public/images/steam.png' width="50" height="50")
+          img(src='/public/images/xbox.png' width="50" height="50")
+          img(src='/public/images/playstation.png' width="50" height="50")
+        #usernametext
+          p Enter your username
+        #usernameinput
+          form(action='/action_page.php')
+            br
+            input(type='text', userid='username', value='')
+            br
+            br
+            input(type='submit', value='See your stats!')

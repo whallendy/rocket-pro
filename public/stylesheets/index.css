@@ -1,0 +1,64 @@
+body {
+    margin-top: 85px;
+    text-align: center;
+    background-color: rgb(0, 128, 255);
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60pt;
+    color: white;
+}
+
+#loginbox {
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    padding: 15px;
+    display: block;
+    background-color: rgb(147, 147, 147);
+}
+
+#platformtext {
+    font-size: 18pt;
+    color: white;
+}
+
+#platformpics {
+    float: left;
+}
+
+img {
+    float: left;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+#usernametext {
+    font-size: 18pt;
+    color: white;
+
+}
+
+input[type=text] {
+    text-align: center;
+    font-size: 18pt;
+    border: 1px solid black;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 128, 255);
+    margin-bottom: 25px;
+}
+
+p {
+}
+
+a {
+    font-size: 16pt;
+    color: #00B7FF;
+}
