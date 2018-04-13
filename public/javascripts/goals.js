@@ -1,6 +1,6 @@
 var request = require('request'),
-    url = "https://api.rocketleague.com//api/v1/steam/leaderboard/stats/goals/76561198272471658"
-    auth = 'Token f9292bcbae319bb405d7f4416308870841213880'
+    url = "https://api.rocketleague.com//api/v1/steam/leaderboard/stats/goals/76561198272471658",
+    auth = 'Token f9292bcbae319bb405d7f4416308870841213880';
 
 request(
     {
@@ -18,8 +18,9 @@ request(
     }
 );
 
-function getGoals() {
+
+
+
+module.exports.getGoals= function(){
     return goals;
 }
-
-
