@@ -11,14 +11,16 @@ request(
         }
     },
     function (error, response, body) {
+        if (error) throw error;
         console.log("error: ", error);
         console.log("body: ", body);
         goals = body[0].value;
         console.log("Number of Goals: ", goals);
+        
     }
 );
 
-function getGoals() {
+module.exports.function getGoals() {
     return goals;
 }
 
