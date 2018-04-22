@@ -1,4 +1,7 @@
 body {
+    text-align: center;
+    background-color: rgb(0, 128, 255);
+    font: 16pt "Lucida Grande", Helvetica, Arial, sans-serif;
     margin: 0;
 }
 

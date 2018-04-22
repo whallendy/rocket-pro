@@ -1,6 +1,7 @@
 include navbar
 html
   head
+    script(src='../public/javascripts/player_id.js')
     link(rel='stylesheet', href='/stylesheets/index.css')
   body
     block content
@@ -17,9 +18,9 @@ html
         #usernametext
           p Enter your username
         #usernameinput
-          form(action='/action_page.php')
+          form(action='/stats')
             br
-            input(type='text', userid='username', value='')
+            input(type='text', userid='username', placeholder='Username or ID', onfocus="this.value=''")
             br
             br
             input(type='submit', value='See your stats!')
