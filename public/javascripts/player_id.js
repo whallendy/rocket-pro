@@ -1,4 +1,4 @@
-var player_id = '76561198143376097';
+var player_id = null;
 
 module.exports.setPID = function(pid){
     player_id = pid;

@@ -9,7 +9,7 @@ body
         p !{user_name}
     #rewardLevel
         p Season Reward Level:
-        if reward_level == 0
+        if reward_level == (0||null)
             p You have no reward level yet
         else if reward_level == 1
             P Bronze
