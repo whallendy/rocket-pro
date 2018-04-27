@@ -1,13 +1,103 @@
 body {
-    background-color: rgb(0, 128, 255);
-    text-align: center;
-    /*color: rgba(147, 147, 147);*/
+    background-color: rgb(117, 117, 117);
+    background-image: url("../images/RocketLeagueBackground2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     font-size: 20pt;
     font: 16pt "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 #userName {
-    margin-top: 85px;
-    font-size: 47pt;
+    margin-top: 95px;
+    font-size: 37pt;
+}
+
+#row1 {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	padding: 35px;
+}
+
+#skills {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	padding: 35px;
+}
+
+#rewardLevel {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#goals {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#value {
+	font-size: 35pt;
+}
+
+#solo {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#doubles {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#solostandard {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#standard {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 35px;
+    margin: 25px;
+    background-color: rgb(117, 117, 117, .75);
+}
+
+#homelink {
+	padding: 25px;
+	margin-bottom: 100px;
+}
+
+#homelink a:visited {
+	color: red;
+}
+
+#homelink a:link {
+	color: red;
+}
+
+#homelink a:hover {
+	color: darkred;
 }

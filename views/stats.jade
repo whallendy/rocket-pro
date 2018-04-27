@@ -7,28 +7,54 @@ body
     block content
     #userName
         p !{user_name}
-    #rewardLevel
-        p Season Reward Level:
-        if reward_level == (0||null)
-            p You have no reward level yet
-        else if reward_level == 1
-            P Bronze
-        else if reward_level == 2
-            p Silver
-        else if reward_level == 3
-            p Gold
-        else if reward_level == 4
-            p Platinum
-        else if reward_level == 5
-            p Diamond
-        else if reward_level === 6
-            p Champion
-        else if reward_level == 7
-            p Grand Champion
-        else if reward_level == 8
-            p what's after GC??
-        else
-            p this value is not 0-8...
-    #goals
-        p Goals: #{goals}
-    a(href='/') HOME
+    #row1
+        #rewardLevel
+         p Season Reward Level
+          #value
+            if reward_level == (0||null)
+                p None  
+            else if reward_level == 1
+                P Bronze
+            else if reward_level == 2
+                p Silver
+            else if reward_level == 3
+                p Gold
+            else if reward_level == 4
+                p Platinum
+            else if reward_level == 5
+                p Diamond
+            else if reward_level === 6
+                p Champion
+            else if reward_level == 7
+                p Grand Champion
+            else if reward_level == 8
+                p what's after GC??
+            else
+                p this value is not 0-8...
+        #goals
+          #goalstext
+            p Goals
+            #value
+              p !{goals}
+    #row2
+        p ********** MMR **********
+        #skills
+            #solo
+                p Solo
+                #value 
+                  p !{solo_mmr}
+            #doubles
+                p Doubles
+                #value
+                  p !{doubles_mmr}
+            #solostandard
+                p Solo Standard
+                #value
+                  p !{solostandard_mmr}
+            #standard
+                p Standard
+                #value
+                  p !{standard_mmr}
+    #homelink
+        a(href='/') HOME
+        p 

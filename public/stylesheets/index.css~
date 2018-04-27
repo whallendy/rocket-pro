@@ -2,10 +2,7 @@ body {
     margin-top: 85px;
     margin-bottom: 40px;
     text-align: center;
-    background-color: rgb(117, 117, 117);
-    background-image: url("../images/RocketLeagueBackground2.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgb(0, 128, 255);
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -17,10 +14,12 @@ h1 {
 #loginbox {
     border-radius: 25px;
     border: 1px solid black;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 300px;
     padding: 15px;
-    background-color: rgb(117, 117, 117, .90);
+    display: block;
+    background-color: rgb(147, 147, 147);
 }
 
 #platformtext {
@@ -29,48 +28,31 @@ h1 {
 }
 
 #platformpics {
-	justify-content: center;
     float: left;
 }
 
 img {
     float: left;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px;
-}
-
-#checkboxes {
-	margin-bottom: 50px;
-}
-
-#middle input {
-
-}
-
-#checkboxes input {
-    margin-left: 44px;
-    margin-right: 44px;
+    padding: 25px;
+    margin-bottom: 40px;
 }
 
 #usernametext {
     font-size: 18pt;
     color: white;
+
 }
 
 input[type=text] {
-	width: 90%;
     text-align: center;
     font-size: 18pt;
-    background-color: rgb(255, 255, 255, .75);
     border: 1px solid black;
 }
 
 input[type=submit] {
     font-size: 18px;
     color: white;
-    border: 1px solid rgb(0, 77, 175);
-    background-color: rgb(0, 77, 175, .5);
+    background-color: rgb(0, 128, 255);
     margin-bottom: 25px;
 }
 

@@ -1,0 +1,6 @@
+head
+    link(rel='stylesheet', href='/stylesheets/about.css')
+body
+    block content
+    p [ABOUT]
+    a(href='/') HOME

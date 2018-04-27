@@ -9,8 +9,8 @@ body
             a(href='/') Home
         li
             a(href='/about') About
-        //li
-            //a(href='/leaderboards') Leaderboards
+        li
+            a(href='/stats') Stats
 
 
 

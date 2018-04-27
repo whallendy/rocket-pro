@@ -18,9 +18,9 @@ html
         #usernametext
           p Enter your username
         #usernameinput
-          form(action='/stats')
+          form(method='POST', action='/stats')
             br
-            input(type='text', userid='username', placeholder='Username or ID', onfocus="this.value=''")
+            input(type='text', name='username', placeholder='Username or ID', onfocus="this.value=''")
             br
             br
             input(type='submit', value='See your stats!')

@@ -1,7 +1,7 @@
 include navbar
 html
   head
-    script(src='../public/javascripts/player_id.js')
+    script(src='/javascripts/player_id.js')
     link(rel='stylesheet', href='/stylesheets/index.css')
   body
     block content
@@ -15,12 +15,16 @@ html
           img(src='/public/images/steam.png' width="50" height="50")
           img(src='/public/images/xbox.png' width="50" height="50")
           img(src='/public/images/playstation.png' width="50" height="50")
+        #checkboxes
+          input(type='radio', name='platform', value='1', onclick='platformSelect("steam")')
+          input(type='radio', name='platform', value='2', onclick='selectXboxone')
+          input(type='radio', name='platform', value='3', onclick='selectPs4')
         #usernametext
           p Enter your username
         #usernameinput
           form(method='POST', action='/stats')
             br
-            input(type='text', name='username', placeholder='Username or ID', onfocus="this.value=''")
+            input(type='text', name='username', placeholder='Username or ID')
             br
             br
-            input(type='submit', value='See your stats!')
+            input(type='submit', value='See your stats!', required)
