@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(117, 117, 117);
+    background-color: black;
     background-image: url("../images/RocketLeagueBackground2.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -9,6 +9,7 @@ body {
 }
 
 #userName {
+	background-color: rgb(0,0,0,.4);
     margin-top: 95px;
     font-size: 37pt;
 }
@@ -29,20 +30,20 @@ body {
 
 #rewardLevel {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #goals {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #value {
@@ -51,38 +52,38 @@ body {
 
 #solo {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #doubles {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #solostandard {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #standard {
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 230px;
     padding: 35px;
     margin: 25px;
-    background-color: rgb(117, 117, 117, .75);
+    background-color: rgb(0,0,0,.6);
 }
 
 #homelink {

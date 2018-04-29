@@ -6,7 +6,7 @@ var id = require('../public/javascripts/player_id.js');
 router.get('/', function(req, res) {
   res.render('index', { title: 'Rocket Pro',
   		  				selectSteam: id.platformSelect("steam"),
-  						//selectXboxone: id.platformSelect("xboxone"),
+  						selectXboxone: id.platformSelect("xboxone"),
   						//selectPs4: id.platformSelect("ps4") 
   					   }
   );

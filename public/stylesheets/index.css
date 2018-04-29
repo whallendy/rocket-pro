@@ -2,7 +2,7 @@ body {
     margin-top: 85px;
     margin-bottom: 40px;
     text-align: center;
-    background-color: rgb(117, 117, 117);
+    background-color: black;
     background-image: url("../images/RocketLeagueBackground2.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -16,11 +16,11 @@ h1 {
 
 #loginbox {
     border-radius: 25px;
-    border: 1px solid black;
+    //border: 1px solid black;
     margin: auto;
     max-width: 300px;
     padding: 15px;
-    background-color: rgb(117, 117, 117, .90);
+    background-color: rgb(0,0,0, .5);
 }
 
 #platformtext {
