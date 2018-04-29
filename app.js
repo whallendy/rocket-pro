@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var promise = require('promise');
+var compression = require('compression');
+var helmet = require('helmet');
 
 var http = require('http');
 var options = {
@@ -22,6 +24,8 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.use(compression());
+app.use(helmet());
 app.use(favicon());
 app.use(logger('dev'));
 app.use(bodyParser.json());
